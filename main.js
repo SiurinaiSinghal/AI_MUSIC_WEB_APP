@@ -73,7 +73,9 @@ function draw() {
 		{
 			song1.play();
 			document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
+			document.body.style.backgroundImage = "url('harr potter bg.jpg')"
 		}
+		
 	}
 
 	if(scoreLeftWrist > 0.2)
@@ -86,7 +88,9 @@ function draw() {
 		{
 			song2.play();
 			document.getElementById("song").innerHTML = "Playing - Peter Pan Song"
+			document.body.style.backgroundImage = "url('peter pan bg.jpg')"
 		}
+		
 	}
 
 }
